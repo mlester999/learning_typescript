@@ -19,6 +19,11 @@ let showShape = (shape: Rectangle) => {
 
 let myShape = showShape(rectangle);
 
+// Type alias
+type ID = number;
+
+let userId: ID = 123;
+
 // Type assertions
 let valueGreetings: any = 'Hello World!';
 let valueLength: number = (<string>valueGreetings).length;
